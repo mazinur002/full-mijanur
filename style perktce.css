@@ -1,0 +1,62 @@
+/* deafault css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.header-left{
+    text-align: left;
+}
+.header-right{
+    text-align: right;
+}
+/* header css */
+.fixed-with{
+    width: 1270px;
+    margin: auto;
+}
+.header{
+    background: cyan;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-left img{
+    width:210px ;
+    height: auto;
+}
+.header-right ul{
+    text-align: center;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 30px;
+    line-height: 74px;
+    transform: .4s;
+    border-left:1px solid #fff ;
+    
+}
+.header-right ul li a:hover{
+    background: cyan;
+}
